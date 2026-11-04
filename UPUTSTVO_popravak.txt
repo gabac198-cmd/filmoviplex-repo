@@ -1,0 +1,37 @@
+POPRAVAK v21 - repozitorij
+==========================
+
+UZROK (provjereno na tvom repozitoriju):
+  - Popis (plugins.json) pokazuje na datoteku imena "Filmoviplex.cs3".
+  - Medjutim, na repozitoriju se datoteka zove "Filmoviplex_v21.cs3".
+  - Zato aplikacija ne moze naci dodatak i kaze da NEMA PLUGINA.
+  - Nedostaje i "icon.png".
+
+RIJESI NA JEDAN OD DVA NACINA.
+
+--- NACIN 1 (najlaksi, samo preimenuj) ---
+  Na repozitoriju preimenuj datoteku:
+     "Filmoviplex_v21.cs3"  ->  "Filmoviplex.cs3"
+  Zatim na repozitorij dodaj datoteku "icon.png".
+  Osvjezi repozitorij u aplikaciji (ili ga ukloni pa ponovno dodaj).
+
+--- NACIN 2 (prekopiraj 3 datoteke) ---
+  1) Otvori POPRAVAK_REPO_v21.zip.
+  2) Unutra su 3 datoteke:
+       Filmoviplex.cs3
+       plugins.json
+       icon.png
+  3) Prekopiraj ih u repozitorij (preko starih).
+  4) Osvjezi repozitorij u aplikaciji.
+
+STO JE U POPRAVKU:
+  - Filmoviplex.cs3   - sam dodatak, verzija 21 (isti kao u paketu).
+  - plugins.json      - popis koji pokazuje tocno na "Filmoviplex.cs3",
+                        verzija 21, otisak i velicina se poklapaju.
+  - icon.png          - ikona dodatka.
+
+PROVJERA NAKON POPRAVKA:
+  - Settings -> Extensions -> repozitorij "Filmoviplex repo"
+    mora prikazati dodatak "Filmoviplex" (verzija 21).
+  - Otvori film u kategoriji "Naučna fantastika" i u plejeru popis
+    titlova - natpis treba pisati "hbs-hrv".
