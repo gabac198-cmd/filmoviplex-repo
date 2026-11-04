@@ -1,0 +1,37 @@
+FILMOVIPLEX v21 - UPUTSTVO
+==========================
+
+STA JE NOVO U v21 (u odnosu na v20):
+- Natpis titla iz video toka je ispravljen. Kod dijela izvora je
+  hrvatski titl bio pogresno potpisan ("English"), pa je u popisu
+  titlova plejera pisalo "English" iako je unutra hrvatski tekst.
+  Sada takav titl pise "hbs-hrv" - isto kako pise kod ostalih filmova.
+- Mijenja se SAMO natpis (i oznaka jezika na "hr"). Sadrzaj titla se
+  NE dira.
+- Ako natpis vec pise "hbs-hrv" - ne dira se.
+- Hrvatski titl (hr / hrv / hrvatski / croatian / hbs / scr / sh) ->
+  prikazuje se kao "hbs-hrv".
+- Ako je to JEDINI titl u toku, a pise "English" -> prikazuje se kao
+  "hbs-hrv".
+- Pravi engleski (kad uz njega ima drugih titlova) i svi ostali jezici
+  ostaju NETAKNUTI.
+- Sve ostalo iz v20 ostaje isto: hrvatski titl "Croatian" / "hr",
+  srpski "Serbian" / "sr" (uvijek latinica), bez praznih i duplih
+  zapisa, rezervni izvor kad jezika nema na stranici.
+
+KAKO INSTALIRATI:
+1) Otvori CloudStream -> Settings -> Extensions -> Add repository.
+2) Ubaci link do plugins_v21.json (vidi LINKOVE koje sam poslao).
+3) Instaliraj/azuriraj "Filmoviplex".
+4) VAZNO: obrisi cache aplikacije ili je potpuno deinstaliraj pa
+   instaliraj ponovo - inace ostaje stari popis titlova.
+5) Igraci: u listi izvora proizvodi se zovu
+   "Filmoviplex (Filmovi/Serije) HR test" i "Filmoviplex (Domaći) HR test".
+
+PROVJERA:
+- Otvori film u kategoriji "Naučna fantastika" i u plejeru otvori
+  popis titlova. Natpis treba pisati "hbs-hrv" (prije je pisalo
+  "English").
+
+ROLLBACK:
+Ako v21 pravi problem, vrati se na v20 ili v19.

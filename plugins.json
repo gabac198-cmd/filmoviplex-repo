@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Filmoviplex",
+    "internalName": "FilmoviplexPlugin",
+    "description": "Filmoviplex.net - filmovi i serije sa prevodom (v21: pogresno potpisan titl u toku - natpis \"English\" - sada se prikazuje kao \"hbs-hrv\"; hrvatski ostaje Croatian / hr, srpski Serbian / sr)",
+    "url": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/Filmoviplex.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/icon.png",
+    "version": 21,
+    "apiVersion": 1,
+    "fileHash": "sha256-34c4f6590d8bb43d1c7232e71e954c9ab9765b32704fe3ed50d1cd5c143b5325",
+    "fileSize": 92894,
+    "status": 1,
+    "repositoryUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/repo.json",
+    "authors": [
+      "TeraAI"
+    ],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ]
+  }
+]
